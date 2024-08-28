@@ -8,7 +8,7 @@ import geopy.distance as dis
 from geopy.extra.rate_limiter import RateLimiter
 from model_command import embed_fn, find_best_loc, role_to_streamlit
 
-genai.configure(api_key='AIzaSyBbpsd22RnM0BXGNRSHzuZ1-ju7p7W9hvQ')
+genai.configure(api_key='Your API)
 if "user_cord" not in st.session_state: #Kiểm tra xem user có nhập địa chỉ không
     st.session_state.user_cord = None
 #Khu vực lúc mới vào web
