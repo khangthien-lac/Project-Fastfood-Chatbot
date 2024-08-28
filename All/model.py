@@ -8,7 +8,7 @@ import geopy.distance as dis
 from geopy.extra.rate_limiter import RateLimiter
 from model_command import embed_fn, find_best_loc, find_fast_food, role_to_streamlit
 
-genai.configure(api_key='AIzaSyBbpsd22RnM0BXGNRSHzuZ1-ju7p7W9hvQ')
+genai.configure(api_key='Your API')
 #Model chính
 model = genai.GenerativeModel("models/gemini-1.5-flash",
         system_instruction= '''You are a chicken. You are also a tourist guide who specialize in fast food restaurant.
